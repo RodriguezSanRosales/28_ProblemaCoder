@@ -1,0 +1,155 @@
+/* Tu CSS va aqui */
+/*header*/
+header {
+	background-image: url(../img/header.jpg);
+	background-size: 100%;
+	height: 600px;
+	background-repeat: no-repeat;
+}
+nav li {
+	display: inline-block;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+button:hover {
+	background-color: #A9BCF5;
+}
+
+.lineaNav {
+	border: solid 1px white;
+}
+/*estilo texto*/
+
+h2 {
+	padding-top: 10%;
+	font-weight: bold !important;
+	font-size: 350% !important;
+}	
+
+h1,h2, .teWhi {
+	color: white !important;
+}
+.blac {
+	color: black;
+}
+
+/*lineas*/
+hr {
+	width: 7%;
+	border: 1px solid white;
+}
+.lineOrag {
+	border: 1px solid #FA8258; 
+}
+/*fondos*/
+.fondoOrag {
+	background-color: #FA8258;
+	height: 250px;
+	padding: 5%;
+}
+.fondoBla {
+	background-color: black;
+	padding: 5%;
+	
+}
+/*botones*/
+.btnMas {
+	background-color: #FA8258;
+	border-radius: 50px;
+	border-style: none;
+	padding: 1%;
+	color: white;
+}
+.btnVer {
+	background-color: white;
+	border-radius: 50px;
+	border-style: none;
+	padding: 1%;
+
+}
+
+.coloIcon {
+	color: #FA8258;
+}
+.pdLad {
+	padding: 0 5%;
+}
+.padA {
+	padding: 5% 0;
+}
+
+
+/*cambio de color al pasar el mouse*/
+/*img*/
+.colorFondo{
+	width: 93%;
+	height: 232px;
+	background-color: red;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	padding-top: 25%;
+}
+.colorFondo:hover {
+	opacity: 0.5;
+}
+.textFon {
+	color: white;
+	font-size: 2em;
+	text-align: center;
+}
+.pd0 {
+	padding: 0;
+	margin: 0;
+}
+
+/*cambio de color al pasar el mouse2*/
+/*img*/
+a.opacidad img {
+ 
+  opacity: 0.8;
+  }
+
+a.opacidad:hover img {
+  
+  opacity: 1.0;
+  }
+
+/*medias*/
+
+@media screen and (max-width: 800px) {
+	header {
+	 	height: 400px;
+	 	width: 100%;
+	}
+	h2 {
+		padding-top: 4%;
+	    font-size: 250% !important;
+	}
+	.colorFondo{
+	    width: 100%;
+	    height: 100px;
+	}
+} 
+@media screen and (max-width: 600px) {
+	header {
+	 	height: 350px;
+	 	width: 100%;
+	 	padding: 2%;
+	}
+	h2 {
+		
+	    font-size: 130% !important;
+	}
+	.textIni {
+		font-size: 90% !important;
+
+	}
+	.colorFondo{
+	    width: 100%;
+	    height: 323px;
+	}
+} 
