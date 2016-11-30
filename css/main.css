@@ -17,7 +17,7 @@ nav li {
 }
 a {
 	text-decoration: none;
-	color: white;
+	color: white !important;
 }
 button:hover {
 	background-color: #A9BCF5;
