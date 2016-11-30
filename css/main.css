@@ -1,15 +1,20 @@
 /* Tu CSS va aqui */
 /*header*/
-header {
+.backheader {
 	background-image: url(../img/header.jpg);
 	background-size: 100%;
 	height: 600px;
+	width: 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
 }
 nav li {
 	display: inline-block;
 }
-
+.navbar{
+	background-color: black;
+	border: none;
+}
 a {
 	text-decoration: none;
 	color: white;
@@ -26,7 +31,7 @@ button:hover {
 h2 {
 	padding-top: 10%;
 	font-weight: bold !important;
-	font-size: 350% !important;
+	font-size: 340% !important;
 }	
 
 h1,h2, .teWhi {
@@ -53,6 +58,7 @@ hr {
 .fondoBla {
 	background-color: black;
 	padding: 5%;
+	width: 100%;
 	
 }
 /*botones*/
@@ -80,18 +86,22 @@ hr {
 .padA {
 	padding: 5% 0;
 }
-
-
+.pad5{
+	margin: 0 ;
+}
+/*img*/
+.imgCover{
+	width: 100%;
+}
 /*cambio de color al pasar el mouse*/
 /*img*/
 .colorFondo{
-	width: 93%;
-	height: 232px;
+	width: 100%;
+	height: 100%;
 	background-color: red;
 	opacity: 0;
 	position: absolute;
 	top: 0;
-	padding-top: 25%;
 }
 .colorFondo:hover {
 	opacity: 0.5;
@@ -100,56 +110,19 @@ hr {
 	color: white;
 	font-size: 2em;
 	text-align: center;
+	padding-top: 25%;
 }
 .pd0 {
 	padding: 0;
 	margin: 0;
 }
 
-/*cambio de color al pasar el mouse2*/
-/*img*/
-a.opacidad img {
- 
-  opacity: 0.8;
-  }
-
-a.opacidad:hover img {
-  
-  opacity: 1.0;
-  }
-
 /*medias*/
 
-@media screen and (max-width: 800px) {
-	header {
-	 	height: 400px;
-	 	width: 100%;
-	}
-	h2 {
-		padding-top: 4%;
-	    font-size: 250% !important;
-	}
-	.colorFondo{
-	    width: 100%;
-	    height: 100px;
-	}
-} 
-@media screen and (max-width: 600px) {
-	header {
-	 	height: 350px;
-	 	width: 100%;
-	 	padding: 2%;
-	}
-	h2 {
-		
-	    font-size: 130% !important;
-	}
-	.textIni {
-		font-size: 90% !important;
 
+ @media (min-width : 320px) and (max-width : 415px) {
+	.textFon {
+		padding-top: 20%;
 	}
-	.colorFondo{
-	    width: 100%;
-	    height: 323px;
-	}
-} 
+		
+}
