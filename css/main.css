@@ -1,4 +1,22 @@
 /* Tu CSS va aqui */
+/*navegador scroll*/
+a[ id= "perfil" ]:target ~ #main section.panel {
+    -webkit-transform: translateY( 0px);
+    transform: translateY( 0px );
+}
+
+a[ id= "desWeb" ]:target ~ #main section.panel {
+    -webkit-transform: translateY( -500px );
+    transform: translateY( -500px );
+}
+a[ id= "disGrafico" ]:target ~ #main section.panel {
+    -webkit-transform: translateY( -1000px );
+    transform: translateY( -1000px );
+}
+a[ id= "contacto" ]:target ~ #main section.panel {
+    -webkit-transform: translateY( -1500px );
+    transform: translateY( -1500px );
+}
 /*header*/
 .backheader {
 	background-image: url(../img/header.jpg);
